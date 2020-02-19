@@ -1,11 +1,12 @@
-/* Declare CSS custom properties (variables) to define
+/* Declare CSS custom properties (aka CSS variables) to define
 the colour values used on this webpage. You should include a
 primary colour, a secondary colour, a font colour, and a 
 background colour 
-
-DECLARE YOUR VARIABLES BELOW!
 */
 
+/* DECLARE YOUR CSS VARIABLES HERE! */
+
+/* DO NOT ALTER CODE BELOW THIS LINE */
 img {
   max-width: 700px;
 }
