@@ -4,9 +4,20 @@ primary colour, a secondary colour, a font colour, and a
 background colour 
 */
 
-/* DECLARE YOUR CSS VARIABLES HERE! */
+/* EDIT CODE BELOW THIS LINE! */
 
-/* DO NOT ALTER CODE BELOW THIS LINE */
+:root {
+  /* variables go here */
+}
+
+/* Stretch challenge */
+
+.dark {
+  /* variables go here */
+}
+
+/* DO NOT EDIT CODE BELOW THIS LINE! */
+
 img {
   max-width: 700px;
 }
@@ -41,7 +52,7 @@ section {
   padding: 1.5em;
 }
 
-/*Toggle switch styling - do not edit*/
+/*Toggle switch styling*/
 
 .theme-switch-wrapper {
   display: flex;

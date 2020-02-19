@@ -67,33 +67,9 @@
 
       function switchTheme(e) {
         if (e.target.checked) {
-          document.documentElement.style.setProperty(
-            "--primary-colour",
-            "#9a97f3"
-          );
-          document.documentElement.style.setProperty(
-            "--secondary-colour",
-            "#818cab"
-          );
-          document.documentElement.style.setProperty(
-            "--font-colour",
-            "#e1e1ff"
-          );
-          document.documentElement.style.setProperty("--bg-colour", "#161625");
+          document.documentElement.classList.add("dark");
         } else {
-          document.documentElement.style.setProperty(
-            "--primary-colour",
-            "#302ae6"
-          );
-          document.documentElement.style.setProperty(
-            "--secondary-colour",
-            "#536390"
-          );
-          document.documentElement.style.setProperty(
-            "--font-colour",
-            "#424242"
-          );
-          document.documentElement.style.setProperty("--bg-colour", "#fff2c9");
+          document.documentElement.classList.remove("dark");
         }
       }
 

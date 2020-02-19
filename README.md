@@ -22,3 +22,5 @@ Open index.html and look for the `switchTheme` function inside the `<script></sc
 
 1. Select the CSS variables you've defined in the style.css file, and...
 2. ...change their values to a dark colour palette!
+
+Try to make sure your text and background colour contrast remain accessible. There are [contrast checking tools](https://contrastchecker.com/) that can help.
