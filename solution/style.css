@@ -1,10 +1,12 @@
-/* Declare CSS custom properties (variables) to define
-the colour values used on this webpage. You should include a
-primary colour, a secondary colour, a font colour, and a 
-background colour 
+:root {
+  /* Colours */
+  --primary-colour: #302ae6;
+  --secondary-colour: #536390;
+  --font-colour: #424242;
+  --bg-colour: #fff2c9;
+}
 
-DECLARE YOUR VARIABLES BELOW!
-*/
+/* Then, we can reference these variables in our stylesheets, like so: */
 
 img {
   max-width: 700px;

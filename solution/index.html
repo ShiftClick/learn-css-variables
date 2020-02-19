@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Dark Mode Workshop</title>
 
-    <link rel="stylesheet" media="screen" href="solution.css" />
+    <link rel="stylesheet" media="screen" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap"
       rel="stylesheet"
@@ -67,11 +67,33 @@
 
       function switchTheme(e) {
         if (e.target.checked) {
-          // Write some code that will switch the colour
-          // variable values to create a dark mode
+          document.documentElement.style.setProperty(
+            "--primary-colour",
+            "#9a97f3"
+          );
+          document.documentElement.style.setProperty(
+            "--secondary-colour",
+            "#818cab"
+          );
+          document.documentElement.style.setProperty(
+            "--font-colour",
+            "#e1e1ff"
+          );
+          document.documentElement.style.setProperty("--bg-colour", "#161625");
         } else {
-          // Write some code that will revert the colour
-          // variables back to their original values
+          document.documentElement.style.setProperty(
+            "--primary-colour",
+            "#302ae6"
+          );
+          document.documentElement.style.setProperty(
+            "--secondary-colour",
+            "#536390"
+          );
+          document.documentElement.style.setProperty(
+            "--font-colour",
+            "#424242"
+          );
+          document.documentElement.style.setProperty("--bg-colour", "#fff2c9");
         }
       }
 
